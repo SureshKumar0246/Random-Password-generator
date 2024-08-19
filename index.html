@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAndom password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="mainBox">
+        <div class="row">
+            <input type="text"  id="Showpass" value="">
+        </div>
+        <div class="box">
+            <label for="passLength">Password Length</label>
+            <input type="number" name="passLength" id="passLength" value="5">
+        </div>
+        <div class="box">
+            <label for="upercase">Contains UpperCase</label>
+            <input type="checkbox" name="passLength" id="upercase">
+        </div>
+        <div class="box">
+            <label for="lowercase">Contains LowerCase</label>
+            <input type="checkbox" name="passLength" id="lowercase">
+        </div>
+        <div class="box">
+            <label for="num">Contains Numbers</label>
+            <input type="checkbox" name="passLength" id="num">
+        </div>
+        <div class="box">
+            <label for="symbol">Contains Symbols</label>
+            <input type="checkbox" name="passLength" id="symbol">
+        </div>
+        <button class="btn">Generate</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

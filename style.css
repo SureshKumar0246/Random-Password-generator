@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainBox{
+    width: 20rem;
+    background-color: rgb(137, 195, 245);
+    padding: 20px;
+}
+#Showpass{
+    height: 30px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+#passLength{
+    width: 40px;
+}
+button{
+    margin-top: 10px;
+    height: 35px;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: rgb(7, 59, 59);
+    color: aliceblue;
+    font-size: 17px;
+    border-radius: 10px;
+}
+#Showpass{
+    font-size: 20px;
+    text-align: center;
+}
